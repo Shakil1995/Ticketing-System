@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/homeID"
+    android:icon="@drawable/home_black_24dp"
+    android:title="Home"
+    />
+
+<item
+    android:id="@+id/notificationID"
+    android:icon="@drawable/notificationblack_24dp"
+    android:title="Notification"/>
+
+<item
+    android:id="@+id/settingID"
+    android:icon="@drawable/setting_high_black_24dp"
+    android:title="Setting"/>
+
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/profile_black_24dp"
+        android:title="Profile"/>
+
+</menu>

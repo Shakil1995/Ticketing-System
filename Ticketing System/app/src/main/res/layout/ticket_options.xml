@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:id="@+id/shakil_dr"
+    android:gravity="center"
+    android:layout_margin="15dp">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="#739CC2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/My_TicketID"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="My Ticket" />
+
+        <Button
+            android:id="@+id/Submit_TicketID"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Submit Ticket" />
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
